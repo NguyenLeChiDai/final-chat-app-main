@@ -1,0 +1,27 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  width: 10%;
+  float: left;
+  .emoji-icon {
+    height: 60%;
+    width: 60%;
+    .emoji-picker-react {
+      position: absolute;
+      top: -350px;
+    }
+  }
+}
