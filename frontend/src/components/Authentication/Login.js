@@ -39,8 +39,8 @@ const Login = () => {
             "Content-type": "application/json",
           },
         };
-        // const {data} = await axios.post("http://localhost:5000/api/user/login", {phoneNumber, password}, config);
-        const {data} = await axios.post("/api/user/login", {phoneNumber, password}, config);
+         const {data} = await axios.post("http://localhost:5000/api/user/login", {phoneNumber, password}, config);
+       //const {data} = await axios.post("/api/user/login", {phoneNumber, password}, config);
         toast({
           title: "Đăng nhập thành công",
           status: "success",
