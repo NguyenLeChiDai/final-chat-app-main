@@ -1,4 +1,4 @@
-Link deploy: [ https://zola-3q9b.onrender.com](https://zolachat.onrender.com/chats)
+Link deploy: https://zolachat.onrender.com/
 1: Use case tổng quát:
 ![image](https://github.com/NguyenLeChiDai/final-chat-app-main/assets/157259663/2710a009-8db6-43e0-b23f-0c0b9205366f)
 2: Class Diagram
