@@ -11,7 +11,7 @@ const connectDB = require("./config/db");
 connectDB();
 
 //------- Cấu hình CORS
-const whitelist = ['http://localhost:3000', 'https://zola-3q9b.onrender.com'];
+const whitelist = ['http://localhost:5000', 'https://zola-3q9b.onrender.com'];
 const corsOptions = {
   origin: (origin, callback) => {
     if (whitelist.indexOf(origin) !== -1 || !origin) {
